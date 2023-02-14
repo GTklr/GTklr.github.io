@@ -9,7 +9,7 @@ import {ReactComponent as FirebaseIcon} from "../assets/firebase.svg"
 //media imports
 import muratoneWeb from '../assets/muratone.png'
 
-export default function Hero1() {
+export default function Hero3wp() {
   return (
     <div className="container heroOne d-flex justify-content-evenly align-items-center">
             <div className="me-4">

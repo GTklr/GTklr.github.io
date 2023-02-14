@@ -1,7 +1,13 @@
 .HomeDiv { 
-    background-color: pink;
+    background-color: #545870;
     height: 720px;
 }
+
+.profilePic{
+    box-shadow: 5px 10px 13px 4px rgba(0,0,0,0.31);
+    border-radius: 20px;   
+}
+
 
 /* typewriter effect */
 .typewriter {
@@ -13,25 +19,68 @@
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
-  }
+    }
   
   /* The typing effect */
-  @keyframes typing {
+@keyframes typing {
     from { width: 0 }
     to { width: 100% }
-  }
+}
   
   /* The typewriter cursor effect */
-  @keyframes blink-caret {
+@keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: greenyellow; }
-  }
+}
 
-  .icon-container{
+/* Icon containers etc */
+.icon-container{
     background-color: #29293b;
     border-radius: 10px;
+}
+
+.external-icon{
+    width: 23px;
+    position: relative;
+    bottom: 8px;
+}
+
+.icon-item {
+    transition: all 0.15s ease-in-out;
+}
+
+.icon-item:hover {
+    transform: scale(1.1); 
+    color: greenyellow;
+}
+
+
+
+/* Hero screenshot images */
+
+.imageSS{
+    width: 100%;
+    transition: all 0.15s ease-in-out;
+}
+
+.imageSS:hover{
+    transform: rotate(2deg);
+}
+
+.image-wrapper{
+    width: 40%;
+}
+
+/* HERO section */
+.heroOne{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 600px;
   }
 
-  .icon-item:hover {
-    box-shadow: 5px 10px 8px 10px #888888;
-  }
+
+/* button hover overrides */
+.greenBtn:hover {
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
