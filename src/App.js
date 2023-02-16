@@ -15,6 +15,7 @@ function App() {
       <h1 className="text-center pt-5"> Latest projects</h1>
       <hr />
       <Hero1 />
+      <Hero2 />
     </div>
   );
 }

@@ -12,10 +12,10 @@ import muratoneWeb from '../assets/muratone.png'
 
 export default function Hero1() {
   return (
-    <div className="container heroOne">
+    <div className="container">
         <div className="row pb-5">
             <div className="col-lg-6 col-12 my-auto projectText text-lg-start text-center pt-5">
-                <div className="ps-5">
+                <div className="ps-0 ps-lg-5">
                     <h3>muratone.com</h3>
                     <div className="mt-3">
                     <FontAwesomeIcon className="icon-item me-2" icon={faReact} />
