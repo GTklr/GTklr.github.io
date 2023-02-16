@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5613206c.css",
-    "main.js": "/static/js/main.5930b64c.js",
+    "main.css": "/static/css/main.86307a10.css",
+    "main.js": "/static/js/main.e1b9ae73.js",
     "static/media/mist-drone.png": "/static/media/mist-drone.e4105b38545ffec98e44.png",
     "static/media/3.png": "/static/media/3.4e71a929cf444ceaad17.png",
     "static/media/muratone.png": "/static/media/muratone.dd1938b9371ac7d56598.png",
     "static/media/aonic.png": "/static/media/aonic.94ebac6e95f52b1561d7.png",
     "index.html": "/index.html",
     "static/media/firebase.svg": "/static/media/firebase.44bfa859cafe3666170c4040473b849c.svg",
-    "main.5613206c.css.map": "/static/css/main.5613206c.css.map",
-    "main.5930b64c.js.map": "/static/js/main.5930b64c.js.map"
+    "main.86307a10.css.map": "/static/css/main.86307a10.css.map",
+    "main.e1b9ae73.js.map": "/static/js/main.e1b9ae73.js.map"
   },
   "entrypoints": [
-    "static/css/main.5613206c.css",
-    "static/js/main.5930b64c.js"
+    "static/css/main.86307a10.css",
+    "static/js/main.e1b9ae73.js"
   ]
 }
