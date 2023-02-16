@@ -22,7 +22,7 @@ export default function Hero4wp() {
                     <FontAwesomeIcon className="col icon-item mx-2" icon={faCss3Alt}  />
                     <FontAwesomeIcon className="col icon-item mx-2" icon={faWordpressSimple}  />
                     </div>
-                    <p className="mt-3"> DJ profile website with user authentication <br /> and integrated LinkTree component</p>
+                    <p className="mt-3"> Multi-subdirectory website built on wordpess<br /> using Elementor Pro</p>
                     <p className="col pt-2">Company: Aonic <br/> Handover: Sept 2022</p>
                     <a href="https://www.aonic.com/" target="_blank" className="col-2 btn btn-md btn-light greenBtn">visit</a>
                 </div>

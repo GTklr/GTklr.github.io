@@ -23,7 +23,7 @@ export default function Hero1() {
                     <FontAwesomeIcon className="icon-item mx-2" icon={faBootstrap}/>
                     <FirebaseIcon className="external-icon mx-2 icon-item"/>
                     </div>
-                    <p className="mt-3"> DJ profile website with user authentication <br /> and integrated LinkTree component</p>
+                    <p className="mt-3"> DJ profile website with Firebase Authentication <br /> and integrated LinkTree component</p>
                     <a href="https://muratone.com/" target="_blank" className="btn btn-md btn-light me-3 greenBtn">visit</a>
                     <a href="https://github.com/GTklr/muratone-react" target="_blank" className="btn btn-md btn-outline-light greenBtn">
                         <FontAwesomeIcon className="me-2" icon={faGithub} size="1x"/> repo
