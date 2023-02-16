@@ -3,6 +3,7 @@
 
 html{
   height: 100%;
+  /* scroll-snap-type: y mandatory */
   
 }
 
@@ -24,4 +25,9 @@ font-family: 'Noto Sans Mono', monospace;
 code{
   font-family: 'Noto Sans Mono', monospace;
   color: yellowgreen;
+}
+
+hr{
+  color: yellowgreen;
+
 }

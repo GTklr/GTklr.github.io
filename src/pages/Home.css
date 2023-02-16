@@ -55,21 +55,7 @@
     color: greenyellow;
 }
 
-/* Hero screenshot images */
-.imageSS{
-    transition: all 0.15s ease-in-out;
-}
 
-.imageSS:hover{
-    transform: rotate(1deg);
-}
-
-/* HERO section */
-.heroOne{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    height: 600px;
-  }
 
 
 /* button hover overrides */
@@ -77,3 +63,31 @@
     background-color: greenyellow;
     border-color: greenyellow;
 }
+
+/* footer stuff */
+
+.footer{
+
+    background-color: #29293b
+}
+.footerDiv{
+    max-width: 300px;
+}
+
+.footer-icon{
+    color: white;
+}
+
+.footer-icon:hover {
+    color: yellowgreen;
+}
+
+/* section by secion, this class adjusts main content section page padding */
+.SectionDiv{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* .ScrollSnapStart{
+    scroll-snap-align: start;
+} */

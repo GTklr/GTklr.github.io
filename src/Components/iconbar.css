@@ -53,6 +53,7 @@
 @media only screen and (min-width: 992px) {
     .icon-item {
         font-size: 60px;
+        
     }
     .external-icon {
         width: 40px;
@@ -60,4 +61,8 @@
         bottom: 18px;
         left: 5px;
     }
+}
+
+.LearningIcons{
+    filter: blur(4px);
 }

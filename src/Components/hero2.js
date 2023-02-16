@@ -6,7 +6,7 @@ import './memoryGame/memorygame.css'
 
 //icon imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBootstrap, faGithub, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faJs, faGithub, faReact } from '@fortawesome/free-brands-svg-icons'
 import {ReactComponent as FirebaseIcon} from "../assets/firebase.svg"
 
 //component imports
@@ -97,11 +97,11 @@ export default function Hero2() {
   }
 
   return (
-    <div className="container">
-        <div className="row pb-5">
-            <div className="col-lg-6 col-12 px-5 px-lg-0 ">
+    <div className="container SectionDiv ScrollSnapStart">
+        <div className="row">
+            <div className="col-lg-6 col-12 px-5 px-lg-0 d-flex ">
             
-                <div className="card-grid">
+                <div className="card-grid ms-auto">
                     {cards.map(card => (
                     <SingleCard 
                     key={card.id} 
@@ -115,13 +115,12 @@ export default function Hero2() {
                 <h1></h1>
             </div>
             
-            <div className="col-lg-6 col-12 my-auto projectText text-lg-start text-center pt-5">
-                <div className="ps-0 ps-lg-5">
+            <div className="col-lg-6 col-12 my-auto text-lg-start text-center">
+                <div className="ps-0 ps-lg-5 mt-3">
                     <h3>Overwatch Memory Game</h3>
                     <div className="mt-3">
                     <FontAwesomeIcon className="icon-item me-2" icon={faReact} />
-                    <FontAwesomeIcon className="icon-item mx-2" icon={faBootstrap}/>
-                    <FirebaseIcon className="external-icon mx-2 icon-item"/>
+                    <FontAwesomeIcon className="icon-item mx-2" icon={faJs}/>
                     </div>
                     <p className="mt-3"> Simple memory game utilizing <code>useState()</code>  hooks.</p>
                     <p className="text-muted">disclaimer: images used for educational coding purposes only</p>

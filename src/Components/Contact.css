@@ -1,0 +1,25 @@
+.contactDiv{
+    min-height: 450px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+input, textarea{
+
+    background-color: #1C1C28;
+    border-width: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: white;
+    color: white;
+}
+
+input:focus, textarea:focus{
+    color: white;
+}
+
+.whatsappBtn{
+    background-color: yellowgreen;
+    border-color: yellowgreen;
+}

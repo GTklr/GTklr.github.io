@@ -1,0 +1,48 @@
+/* Hero screenshot images */
+.imageSS{
+    transition: all 0.15s ease-in-out;
+    max-width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.imageSS:hover{
+    transform: rotate(1deg);
+}
+
+/* HERO section */
+.heroOne{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 600px;
+  }
+
+
+/* /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+    
+}
+@media only screen and (min-width: 1400px) {
+    .HeroLeftDetails{
+        padding-left: 100px;
+    }
+}

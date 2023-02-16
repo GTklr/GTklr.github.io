@@ -9,7 +9,7 @@ import profPic from "../assets/3.png"
 
 export default function Home() {
   return (
-    <div className='HomeDiv'>
+    <div className='HomeDiv ScrollSnapStart'>
         <div className="container">
           <div className="row">
                 <div className="
@@ -20,9 +20,9 @@ export default function Home() {
                     <div className="typewriter text-start">
                       <h2>Front-End Developer</h2>
                     </div>
-                    <p className="pt-3">Self-taught front-end developer who loves building things.</p>
-                    <a className="btn btn-md btn-light me-3 greenBtn">contact</a>
-                    <a className="btn btn-md btn-outline-light greenBtn"><FontAwesomeIcon className="me-2" icon={faGithub} size="1x"/>repo</a>
+                    <p className="pt-3">Self-taught front-end developer who loves building things.<br/>Constantly learning new frameworks and technologies.</p>
+                    <a href="#contactSection"className="btn btn-md btn-light me-3 greenBtn">contact</a>
+                    <a href="https://github.com/GTklr" target="_blank" className="btn btn-md btn-outline-light greenBtn"><FontAwesomeIcon className="me-2" icon={faGithub} size="1x"/>repo</a>
                 </div>
 
                 <div className="col-lg-6 col-md-6 col-sm-12 pt-4 pt-md-5">

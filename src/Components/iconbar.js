@@ -1,13 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import {faHtml5} from '@fortawesome/free-brands-svg-icons'
-import { faBootstrap } from '@fortawesome/free-brands-svg-icons'
-import { faReact } from '@fortawesome/free-brands-svg-icons'
-import { faNode } from '@fortawesome/free-brands-svg-icons'
-import { faEnvira } from '@fortawesome/free-brands-svg-icons'
-import { faCss3Alt } from '@fortawesome/free-brands-svg-icons'
-import { faJs } from '@fortawesome/free-brands-svg-icons'
+import {faHtml5, faReact, faBootstrap, faNode, faEnvira, faCss3Alt, faJs} from '@fortawesome/free-brands-svg-icons'
 
 import "./iconbar.css"
 
@@ -21,8 +15,8 @@ export default function Iconbar() {
             <FontAwesomeIcon className="col icon-item" icon={faJs}  />
             <FontAwesomeIcon className="col icon-item" icon={faReact} />
             <FontAwesomeIcon className="col icon-item" icon={faBootstrap} />
-            <FontAwesomeIcon className="col icon-item" icon={faEnvira} />
-            <FontAwesomeIcon className="col icon-item" icon={faNode} />
+            <FontAwesomeIcon className="col icon-item LearningIcons" icon={faEnvira} />
+            <FontAwesomeIcon className="col icon-item LearningIcons" icon={faNode} />
             </div>
         </div>
     </div>
