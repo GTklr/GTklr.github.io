@@ -127,7 +127,9 @@ export default function Hero2() {
                     
                     <button onClick={shuffleCards} className="btn btn-md btn-light me-3 greenBtn">new game</button>
                     
-                    <a className="btn btn-md btn-outline-light greenBtn"><FontAwesomeIcon className="me-2" icon={faGithub} size="1x"/>repo</a>
+                    <a href="https://github.com/GTklr/memory-game" target="_blank" className="btn btn-md btn-outline-light greenBtn">
+                        <FontAwesomeIcon className="me-2" icon={faGithub} size="1x"/> repo
+                    </a>
                     <p className="pt-3 fw-bold">Track your turns: {turns}</p>
                     
                     
