@@ -1,24 +1,29 @@
 .HomeDiv { 
     background-color: #545870;
-    height: 720px;
+    min-height: 400px;
+
 }
 
 .profilePic{
-    box-shadow: 5px 10px 13px 4px rgba(0,0,0,0.31);
-    border-radius: 20px;   
+    margin-bottom: 40px;
+    max-width: 600px;
 }
 
 
 /* typewriter effect */
-.typewriter {
+.typewriter h2 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid violet; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     
+    
     animation: 
-      typing 3.5s steps(40, end),
+      typing 2s steps(20, end),
       blink-caret .75s step-end infinite;
+    }
+.typewriter{
+    display: inline-flex;
     }
   
   /* The typing effect */
@@ -39,11 +44,7 @@
     border-radius: 10px;
 }
 
-.external-icon{
-    width: 23px;
-    position: relative;
-    bottom: 8px;
-}
+
 
 .icon-item {
     transition: all 0.15s ease-in-out;
@@ -54,21 +55,13 @@
     color: greenyellow;
 }
 
-
-
 /* Hero screenshot images */
-
 .imageSS{
-    width: 100%;
     transition: all 0.15s ease-in-out;
 }
 
 .imageSS:hover{
-    transform: rotate(2deg);
-}
-
-.image-wrapper{
-    width: 40%;
+    transform: rotate(1deg);
 }
 
 /* HERO section */

@@ -2,3 +2,62 @@
     position: relative;
     bottom: 60px;
 }
+
+.external-icon{
+    width: 23px;
+    position: relative;
+    bottom: 8px;
+}
+
+/* /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .icon-item {
+        font-size: 35px;
+    }
+    .iconSection{
+        position: relative;
+        bottom: 50px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .icon-item {
+        font-size: 35px;
+    }
+    .iconSection{
+        position: relative;
+        bottom: 50px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .icon-item {
+        font-size: 40px;
+    }
+    .iconSection{
+        position: relative;
+        bottom: 50px;
+    }
+    .external-icon {
+        width: 30px;
+        position: relative;
+        bottom: 10px;
+        left: 5px;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .icon-item {
+        font-size: 60px;
+    }
+    .external-icon {
+        width: 40px;
+        position: relative;
+        bottom: 18px;
+        left: 5px;
+    }
+}

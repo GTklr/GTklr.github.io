@@ -14,15 +14,15 @@ import "./iconbar.css"
 export default function Iconbar() {
   return (
     <div className="iconSection">
-        <div className="row container w-75 mx-auto">
+        <div className="row container mx-auto">
             <div className="icon-container d-flex justify-content-evenly p-3 py-4 shadow-lg">
-            <FontAwesomeIcon className="col icon-item" icon={faHtml5}  size="4x"/>
-            <FontAwesomeIcon className="col icon-item" icon={faCss3Alt}  size="4x"/>
-            <FontAwesomeIcon className="col icon-item" icon={faJs}  size="4x"/>
-            <FontAwesomeIcon className="col icon-item" icon={faReact} size="4x"/>
-            <FontAwesomeIcon className="col icon-item" icon={faBootstrap} size="4x"/>
-            <FontAwesomeIcon className="col icon-item" icon={faEnvira} size="4x"/>
-            <FontAwesomeIcon className="col icon-item" icon={faNode} size="4x"/>
+            <FontAwesomeIcon className="col icon-item" icon={faHtml5}  />
+            <FontAwesomeIcon className="col icon-item" icon={faCss3Alt}  />
+            <FontAwesomeIcon className="col icon-item" icon={faJs}  />
+            <FontAwesomeIcon className="col icon-item" icon={faReact} />
+            <FontAwesomeIcon className="col icon-item" icon={faBootstrap} />
+            <FontAwesomeIcon className="col icon-item" icon={faEnvira} />
+            <FontAwesomeIcon className="col icon-item" icon={faNode} />
             </div>
         </div>
     </div>
