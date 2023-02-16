@@ -20,7 +20,7 @@ export default function Home() {
                     <div className="typewriter text-start">
                       <h2>Front-End Developer</h2>
                     </div>
-                    <p className="pt-3">Self-taught front-end developer who loves building things.<br/>Constantly learning new frameworks and technologies.</p>
+                    <p className="pt-3 introText">Self-taught front-end developer who loves building things.<br/>Constantly learning new frameworks and technologies.</p>
                     <a href="#contactSection"className="btn btn-md btn-light me-3 greenBtn">contact</a>
                     <a href="https://github.com/GTklr" target="_blank" className="btn btn-md btn-outline-light greenBtn"><FontAwesomeIcon className="me-2" icon={faGithub} size="1x"/>repo</a>
                 </div>
