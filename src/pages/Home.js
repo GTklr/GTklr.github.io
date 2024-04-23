@@ -18,9 +18,9 @@ export default function Home() {
                 pt-md-0 pt-5 ps-0 ps-md-5">
                     <h1>Hi, I'm Redza Ramzan</h1>
                     <div className="typewriter text-start">
-                      <h2>Front-End Developer</h2>
+                      <h2>UI/UX + Front-end Developer</h2>
                     </div>
-                    <p className="pt-3 introText">Self-taught front-end developer who loves building things.<br/> Constantly learning new frameworks and technologies.</p>
+                    <p className="pt-3 introText">Full stack digital marketing specialist turned UI/UX + Front-End developer who loves building things.</p>
                     <a href="#contactSection"className="btn btn-md btn-light me-3 greenBtn">contact</a>
                     <a href="https://github.com/GTklr" target="_blank" className="btn btn-md btn-outline-light greenBtn"><FontAwesomeIcon className="me-2" icon={faGithub} size="1x"/>repo</a>
                 </div>
